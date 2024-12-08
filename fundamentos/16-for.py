@@ -38,7 +38,7 @@ if notaFilme > 0:
     media = total / notaFilme
     
 else:
-    notaFilme = 0
+    media = 0
 
 print(f"A media de avaliação do Filme {nomeFilme} é : {notaFilme:.2f}")
      
