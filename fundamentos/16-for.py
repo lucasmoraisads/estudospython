@@ -20,3 +20,25 @@ for filme in filmesList:
     if filme == "Deadpool":
         continue
     print(filme)
+    
+    
+# 4 avaliação do filme
+
+nomeFilme = input("Digite o nome do filme: ")
+notaFilme = int(input("Digite qunatas avaliações que deseja fazer: "))
+
+total = 0
+
+for i in range(notaFilme):
+    nota = float("Digite a nota para o filme: ")
+    total += nota
+    
+    
+if notaFilme > 0:
+    media = total / notaFilme
+    
+else:
+    notaFilme = 0
+
+print(f"A media de avaliação do Filme {nomeFilme} é : {notaFilme:.2f}")
+     
