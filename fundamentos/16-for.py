@@ -30,7 +30,7 @@ notaFilme = int(input("Digite qunatas avaliações que deseja fazer: "))
 total = 0
 
 for i in range(notaFilme):
-    nota = float("Digite a nota para o filme: ")
+    nota = float(input("Digite a nota para o filme: "))
     total += nota
     
     
