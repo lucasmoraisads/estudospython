@@ -19,3 +19,20 @@ def endereco(redenção="Redenção"):
 
 endereco()
 endereco("Conceição do Araguia")
+
+# 4 função para avaaliar filme
+
+def avaliarFilme(avaliacaoFilme, nomeFilme):
+    total = 0
+    for i in range(avaliacaoFilme):
+        nota = float(input("Digite a nota do filme: "))
+        total += nota
+
+    if avaliacaoFilme > 0:
+        media = total / nota
+    else:
+        nota = 0
+
+    print(f"Média de avaliação do filme: {nomeFilme} é : {media:.2f}")
+
+avaliarFilme(2, "Sonic")
