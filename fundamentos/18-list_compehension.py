@@ -16,3 +16,6 @@ print(filtro_letra)
 
 # 3 filmes que eu assisti 
 
+filmeAssisti = [ filme for filme in filmesList if filme != "Mascara"] 
+
+print(filmeAssisti)
