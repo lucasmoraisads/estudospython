@@ -50,7 +50,8 @@ filmeNaLista = lambda nomeFilme: nomeFilme in filmeList
 
 # função que recomenda filme com base na avaliação media
 
-recomendacaoFilme = lambda nomeFilme: f"Comendo Assistir {nomeFilme}"
+recomendacaoFilme = lambda nomeFilme: f"Comendo Assistir {nomeFilme} com média {mediaAvalicao(nomeFilme):.2f}"
 
 print(f"Média de Avaliação do filme Mascara: {mediaAvalicao("Mascara")}")
 print(f"Nimona está n alista : {filmeNaLista("Nimona")}")
+print(f"{recomendacaoFilme("Como treinar seu dragão")}")
