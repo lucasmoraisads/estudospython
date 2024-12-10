@@ -39,3 +39,13 @@ notaFilme = {
     "Como treinar seu dragão" : [7.8, 9.7, 8.9],
     "trancendente" : [6.8, 8.7, 9.9],
 }
+
+# função para calcular a media de avaliação de um filme
+
+mediaAvalicao = lambda nomeFilme: sum(notaFilme[nomeFilme]) / len(notaFilme)
+
+# função que verifica se o filme esta na lista
+
+
+
+print(f"Média de Avaliação do filme Mascara: {mediaAvalicao("Mascara")}")
