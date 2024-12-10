@@ -6,7 +6,9 @@ power = lambda num: num ** 2
 
 par = lambda x: x % 2 == 0
 
-# 
+#  Função que divide um numero por outro
+
+
 print(power(5))
 print(power(8))
 print()
