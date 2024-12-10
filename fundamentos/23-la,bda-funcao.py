@@ -46,6 +46,11 @@ mediaAvalicao = lambda nomeFilme: sum(notaFilme[nomeFilme]) / len(notaFilme)
 
 # função que verifica se o filme esta na lista
 
+filmeNaLista = lambda nomeFilme: nomeFilme in filmeList
 
+# função que recomenda filme com base na avaliação media
+
+recomendacaoFilme = lambda nomeFilme: f"Comendo Assistir {nomeFilme}"
 
 print(f"Média de Avaliação do filme Mascara: {mediaAvalicao("Mascara")}")
+print(f"Nimona está n alista : {filmeNaLista("Nimona")}")
