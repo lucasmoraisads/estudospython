@@ -23,5 +23,13 @@ os.system('cls')
 
 # os.system('shutdown /s')
 # os.system('shutdown /s /t 0') desliga imediatamente
-os.system('shutdown /a')
+# os.system('shutdown /a')
 
+def delisgarPC():
+    os.system('shutdown /s /t 3600')
+
+def delisgarMeiaH():
+    os.system('shutdown /s /t 1800')
+
+def cancelarDelisgamento():
+    os.system('shutdown /a')
