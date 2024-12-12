@@ -22,3 +22,17 @@ num2 = int(input("Digite um número: "))
 print(math.factorial(num2))
 
 # 5 potencia de numeros
+
+print(math.pow(5, 5))
+
+# 6 raiz quadrada de um numero
+
+print(math.sqrt(169))
+
+# 7 mdc
+
+mdc = math.gcd(20, 100)
+
+# 8 logaritmo
+
+print(math.log(10))
