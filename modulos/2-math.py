@@ -20,3 +20,5 @@ print(math.floor(num))
 
 num2 = int(input("Digite um número: "))
 print(math.factorial(num2))
+
+# 5 potencia de numeros
