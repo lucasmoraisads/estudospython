@@ -21,4 +21,4 @@ resultado = re.findall(pattern, text)
 print(resultado)
 
 # 4 - verificando o início de uma string
-rule = ""
+rule = "^A"
