@@ -12,3 +12,4 @@ print(statistics.median([1, 2, 3, 5, 7, 9]))
 # 3 aplicando a moda
 
 print(statistics.mode([2, 3, 6, 5, 2,4, 8, 4, 9, 2]))
+
