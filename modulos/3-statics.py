@@ -13,3 +13,11 @@ print(statistics.median([1, 2, 3, 5, 7, 9]))
 
 print(statistics.mode([2, 3, 6, 5, 2,4, 8, 4, 9, 2]))
 
+# 4 desvio padrão
+
+"""
+Quanto mais proximo do zero for o desvio pedrão
+siguinifica que os dados do conjunto estão menos dispersos
+"""
+
+print(statistics.stdev([1, 1.5, 3.5, 3.8, 5.9]))
