@@ -21,4 +21,22 @@ resultado = re.findall(pattern, text)
 print(resultado)
 
 # 4 - verificando o início de uma string
-rule = "^A"
+rule = r'^A'
+frases = ['A casa está suja', 'O dia está lindo', 'Vamos passear']
+
+for f in frases:
+    if re.match(rule, f):
+        print(f"Corresponde : {f}")
+    else:
+        print(f"Não corresponde: {f}")
+
+# 5 - Verifica o final de uma string
+
+rule_end = r'!$'
+frase2 = "O dia está lindo!"
+macth = re.search(rule_end, frase2)
+
+if macth:
+    print("Sim, corresponde!")
+else:
+    print("Não corresponde!")
