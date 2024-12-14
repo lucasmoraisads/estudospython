@@ -17,3 +17,6 @@ g1 = game("fifa 23", 90.56, 8.5)
 g2 = game("Resident evil ", 100.00, 9.0)
 print(g1)
 print(g2)
+
+# 3 Ordenando dicionarios
+
