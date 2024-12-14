@@ -20,3 +20,6 @@ print(g2)
 
 # 3 Ordenando dicionarios
 
+estudantes = {"Pedro": 23, "Lucas": 28, "João": 32, "Beatriz": 19, "Carlos": 40, "Davila": 26, "Geovana":26, "Debora": 26}
+a = sorted(estudantes.items(), key=itemgetter(0))
+print(a)
