@@ -26,3 +26,10 @@ print(a)
 
 # 4 utilizando uma fila em ambas as extremidades 
 
+deq = deque([20, 40, 60, 80])
+deq.appendleft(10)
+print(deq)
+deq.append(90)
+deq.popleft
+deq.pop
+print(deq)
