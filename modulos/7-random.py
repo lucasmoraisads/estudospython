@@ -47,5 +47,5 @@ while not done:
     elif choice == "2":
         done = True 
     else:
-        print("Opção inválida. escolha a opção 1 ou 2")1
+        print("Opção inválida. escolha a opção 1 ou 2")
         
